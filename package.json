@@ -1,0 +1,17 @@
+{
+  "name": "my-knowledge-base",
+  "version": "1.0.0",
+  "description": "我的知识库网站",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "sass-embedded": "^1.100.0",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-theme-hope": "2.0.0-rc.107"
+  }
+}
